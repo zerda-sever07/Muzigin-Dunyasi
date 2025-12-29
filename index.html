@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MÜZİK KEŞFET</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="tooplate-eco-lume.css" rel="stylesheet">
+<!--
+
+Tooplate 2145 Eco Lume
+
+https://www.tooplate.com/view/2145-eco-lume
+
+Free HTML CSS Template
+
+-->
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bio-bg"></div>
+    <div class="organic-shapes">
+        <div class="leaf leaf-1"></div>
+        <div class="leaf leaf-2"></div>
+        <div class="leaf leaf-3"></div>
+    </div>
+    <div class="particle-system" id="particleSystem"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <div class="logo-icon"></div>
+                <span class="logo-text">YENİ MÜZİKLER KEŞFEDİN</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">GİRİŞ</a></li>
+                <li><a href="#features" class="nav-link">MÜZİK TÜRLERİ</a></li>
+                <li><a href="#about" class="nav-link"> MÜZİK HAKKINDA</a></li>
+                <li><a href="#contact" class="nav-link">MÜZİK ARAYIN-YORUMLAYIN</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Müziğin Renklerini Keşfedin</h1>
+                <p>Her ritim bir hikaye, her nota bir duygu. Müziğin dünyasına adım at. Hikayeni ve duygularını yeniden yaşa.</p>
+                <div class="hero-buttons">
+                    <a href="#features" class="btn btn-primary">
+                        🎶 Müzik Türü Seç
+                    </a>
+                    <a href="#about" class="btn btn-secondary">
+                        📖 Müzik Hakkında Bilgi
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="bio-sphere">
+                    <div class="rotating-text">
+                        <div class="text-circle active">HİSLERİNİ YAŞA</div>
+                        <div class="text-circle">MÜZİK . DİNLE</div>
+                        <div class="text-circle">blue • INNOVATION</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="stats-container">
+            <div class="stat-item">
+                <h3>98%</h3>
+                <p>MÜZİK KALİTESİ</p>
+            </div>
+            <div class="stat-item">
+                <h3>2.5M+</h3>
+                <p>İZLENME</p>
+            </div>
+            <div class="stat-item">
+                <h3>150+</h3>
+                <p>SANATÇI</p>
+            </div>
+            <div class="stat-item">
+                <h3>24/7</h3>
+                <p>MP3 VE MP4 </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <h2 class="section-title">HANGİ MÜZİK TÜRÜ GİBİ HİSSEDİYORDUN BUGÜN?</h2>
+        <div class="features-showcase">
+            <div class="feature-navigation">
+                <div class="nav-item active" data-feature="ecosystems">
+                    <div class="nav-item-icon">📻</div>
+                    <div class="nav-item-content">
+                        <h4>Türk Halk Müziği</h4>
+                        <p>Anadolu kültürünün izlerini taşıyan, yöresel ezgileri ve duygusal anlatımıyla eski günlere özlem uyandıran anlar için.</p>
+                    </div>
+                </div>
+                <div class="nav-item" data-feature="circular">
+                    <div class="nav-item-icon">🎻</div>
+                    <div class="nav-item-content">
+                        <h4>Klasik Müzik</h4>
+                        <p>Yüzyıllar boyunca oluşan,derin ve dramatik yapısıyla ruhunuzu dinlendirmek istediğiniz anlar için.</p>
+                    </div>
+                </div>
+                <div class="nav-item" data-feature="bioenergy">
+                    <div class="nav-item-icon">🎶</div>
+                    <div class="nav-item-content">
+                        <h4>Pop Müzik</h4>
+                        <p>Akılda kalıcı melodiler ile mutlu anlarınıza hareketlilik katmak istediğiniz anlar için.</p>
+                    </div>
+                </div>
+                <div class="nav-item" data-feature="networks">
+                    <div class="nav-item-icon">🎸</div>
+                    <div class="nav-item-content">
+                        <h4>Rock Müzik</h4>
+                        <p>Elektronik gitarların ön plana olduğu güçlü ritim ve enerjisi ile hareketli anlar için.</p>
+                    </div>
+                </div>
+                <div class="nav-item" data-feature="architecture">
+                    <div class="nav-item-icon">🎤</div>
+                    <div class="nav-item-content">
+                        <h4>Rap Müzik</h4>
+                        <p>Hızlı,etkileyici sözleri ve sokak kültürü ile güzel anlar için.</p>
+                    </div>
+                </div>
+                <div class="nav-item" data-feature="symbiosis">
+                    <div class="nav-item-icon">📻</div>
+                    <div class="nav-item-content">
+                        <h4>Blues</h4>
+                        <p>Hüzünlü melodiler ve duygusal gitar notaları ile kötü hissettiğinizanlar için.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="feature-display">
+                <div class="feature-panel active" id="ecosystems">
+                    <div class="feature-visual">🎶</div>
+                    <h3>En sevilen Sanatçılardan</h3>
+                    <p>Bazı sanatçılar her çağa,her kuşağa hitap eder.Herkes tarafından sevilir ve saygı duyulur. Çünkü onlar gerçek hislerini müzik ile dile getirip insanlara hissetirir.<a href="https://timermo.com" rel="nofollow" target="_blank">TimerMo</a> for innovative timer solutions. Elevate your designs with premium vector stickers from <a href="https://www.vectorsticker.com" rel="nofollow" target="_blank">VectorSticker</a>.</p>
+                    <div class="feature-benefits">
+                        <div class="benefit-item">
+                            <h5>SELDA BAĞCAN</h5>
+                            <p>Türk halk müziğinde büyük öneme sahiptir,şarkıları ile insanların hislerini derinleştirir.</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5> CEM KARACA</h5>
+                            <p>Anadolu rock tarzı ile dile getirdiği toplumsal sorunlar, emek adalet temaları ile insanların kalbinde büyük yer edinmiştir.</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>BARIŞ MANÇO</h5>
+                            <p>Anadolu rock ve türk halk müziği tarzı ile dile getirdiği sevgi ,saygı, birlik ,dostluk temaları insanların büyük dikkatini çekmektedir.</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>ERKİN KORAY</h5>
+                            <p>Türkçe rock müziği ilk başlatan , yeni tarzlara açık olan değerli bir sanatçıdır .</p>
+                        </div>
+                    </div>
+                    <a href="#" class="feature-cta">Daha Fazla Gör →</a>
+                </div>
+                
+                <div class="feature-panel" id="circular">
+                    <div class="feature-visual">♻️</div>
+                    <h3>Müzik İle İlgili Bilgiler</h3>
+                    <p>Müzik İyileştirir.</p>
+                    <div class="feature-benefits">
+                        <div class="benefit-item">
+                            <h5>🔄 Complete Recycling</h5>
+                            <p>100% resource recovery and reuse in closed-loop systems</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>⚖️ Material Balance</h5>
+                            <p>Perfect equilibrium between input and output materials</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>🎯 Waste Elimination</h5>
+                            <p>Advanced processing eliminates all forms of waste byproducts</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>💰 Cost Reduction</h5>
+                            <p>Significant savings through resource optimization and reuse</p>
+                        </div>
+                    </div>
+                    <a href="#" class="feature-cta">Discover Cycles →</a>
+                </div>
+                
+                <div class="feature-panel" id="bioenergy">
+                    <div class="feature-visual">𝅘𝅥𝅰</div>
+                    <h3>Bio Energy</h3>
+                    <p>Renewable energy solutions inspired by photosynthesis and natural energy conversion processes, delivering sustainable power with maximum efficiency.</p>
+                    <div class="feature-benefits">
+                        <div class="benefit-item">
+                            <h5>𝅘𝅥𝅰 Solar Efficiency</h5>
+                            <p>Bio-inspired solar cells with 45% higher efficiency rates</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>🔋 Energy Storage</h5>
+                            <p>Organic batteries that store energy like plant cells</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>𝅘𝅥𝅰 Self-Regeneration</h5>
+                            <p>Systems that repair and optimize themselves automatically</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>𝅘𝅥𝅰 Carbon Negative</h5>
+                            <p>Energy production that actually removes CO2 from atmosphere</p>
+                        </div>
+                    </div>
+                    <a href="#" class="feature-cta">Power the Future →</a>
+                </div>
+                
+                <div class="feature-panel" id="networks">
+                    <div class="feature-visual">𝅘𝅥𝅰</div>
+                    <h3>Fluid Networks</h3>
+                    <p>Adaptive communication systems that flow like water, automatically routing around disruptions and optimizing connectivity in real-time.</p>
+                    <div class="feature-benefits">
+                        <div class="benefit-item">
+                            <h5>𝅘𝅥𝅰 Auto-Routing</h5>
+                            <p>Intelligent pathfinding around network disruptions</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>𝅘𝅥𝅰 Ultra-Low Latency</h5>
+                            <p>Sub-millisecond response times across global networks</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>𝅘𝅥𝅰️ Self-Healing</h5>
+                            <p>Networks repair themselves without human intervention</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>𝅘𝅥𝅰 Dynamic Scaling</h5>
+                            <p>Bandwidth adjusts automatically to demand patterns</p>
+                        </div>
+                    </div>
+                    <a href="#" class="feature-cta">Connect Now →</a>
+                </div>
+                
+                <div class="feature-panel" id="architecture">
+                    <div class="feature-visual">𝅘𝅥𝅰</div>
+                    <h3>Adaptive Architecture</h3>
+                    <p>Self-healing and evolving infrastructure that grows and adapts like living organisms to meet changing needs and environmental conditions.</p>
+                    <div class="feature-benefits">
+                        <div class="benefit-item">
+                            <h5>𝅘𝅥𝅰 Self-Repair</h5>
+                            <p>Materials that automatically fix damage and wear</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>𝅘𝅥𝅰 Dynamic Scaling</h5>
+                            <p>Infrastructure expands and contracts based on usage</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>♫ Climate Adaptation</h5>
+                            <p>Responds intelligently to weather and seasonal changes</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>♫ Evolutionary Growth</h5>
+                            <p>Systems improve and evolve through machine learning</p>
+                        </div>
+                    </div>
+                    <a href="#" class="feature-cta">Build Tomorrow →</a>
+                </div>
+                
+                <div class="feature-panel" id="symbiosis">
+                    <div class="feature-visual">♫</div>
+                    <h3>Global Symbiosis</h3>
+                    <p>Worldwide network of interconnected eco-systems working in harmony to balance technology and environmental health across all continents.</p>
+                    <div class="feature-benefits">
+                        <div class="benefit-item">
+                            <h5>♫ Global Coverage</h5>
+                            <p>Connected ecosystems spanning all seven continents</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>♫ Perfect Balance</h5>
+                            <p>Technology and nature in complete equilibrium</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>♫ Collaborative AI</h5>
+                            <p>Systems that work together for planetary health</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>♫ Regenerative Impact</h5>
+                            <p>Networks that actively restore damaged ecosystems</p>
+                        </div>
+                    </div>
+                    <a href="#" class="feature-cta">Join the Network →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2 class="section-title">MÜZİK HAKKINDA</h2>
+        
+        <!-- First Row: Animation Left, Text Right -->
+        <div class="about-content">
+            <div class="about-visual">
+                <div class="eco-visualization">
+                    <div class="growth-rings">
+                        <div class="ring"></div>
+                        <div class="ring"></div>
+                        <div class="ring"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-text">
+                <h2>Neden Müzik</h2>
+                <p>Müzik, kelimelerin susmak zorunda kaldığı yerde konuşmaya başlar.”</p>
+                <p>Bir şarkı, kalbin hatırlamak istemediğini bile yüzeye çıkarabilir.</p>
+                <p>Müzik, ruhun en derin yaralarına en nazik dokunuşu yapar.”<a href="https://timermo.com" rel="nofollow" target="_blank">TimerMo</a> today. Browse thousands of stunning vector stickers at <a href="https://www.vectorsticker.com" rel="nofollow" target="_blank">VectorSticker</a> to enhance your designs.</p>
+            </div>
+        </div>
+        
+        <!-- Second Row: Text Left, Animation Right -->
+        <div class="about-content">
+            <div class="about-text">
+                <h2>Müzik Nedir?</h2>
+                <p>Müzik, kalbin ritmini dünyaya duyurma biçimidir.”</p>
+                <p>Müzik, insanın hem kaçışı hem de kendine dönüş yoludur.”</p>
+                <p>Müzik, zamanın durduğu anlarda bile akmaya devam eder.”</p>
+            </div>
+            <div class="about-visual">
+                <div class="network-visualization">
+                    <div class="network-node"></div>
+                    <div class="network-node"></div>
+                    <div class="network-node"></div>
+                    <div class="network-node"></div>
+                    <div class="network-node"></div>
+                    <div class="network-connection connection-1"></div>
+                    <div class="network-connection connection-2"></div>
+                    <div class="network-connection connection-3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-form">
+                <h2 class="section-title" style="text-align: left; margin-bottom: 40px; font-size: 2.5rem;">Yorum Gönderin</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Adınız</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Soyadınız</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">E-Mail Adresiniz</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Yorumunuz</label>
+                        <textarea id="message" name="message" placeholder="Tell us about your sustainability goals..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Yorumunu Gönder</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Müzik Arayın</h3>
+                <div class="contact-item">
+                    <div class="contact-icon">🎵</div>
+                    <div class="contact-details">
+                        <h4>Tür</h4>
+                       
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">🌍</div>
+                    <div class="contact-details">
+                        <h4>Dil</h4>
+                       
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">🎵</div>
+                    <div class="contact-details">
+                        <h4>Sanatçı</h4>
+                       
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">🎵</div>
+                    <div class="contact-details">
+                        <h4>Benzer Şrkılar</h4>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>Müzikler</h3>
+                <p>Kendini bulmak için doğru müziği bul.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">📘</a>
+                    <a href="#" class="social-link">🐦</a>
+                    <a href="#" class="social-link">💼</a>
+                    <a href="#" class="social-link">📸</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Sanatçılar</h4>
+                <ul>
+                    <li><a href="#">Türler</a></li>
+                    <li><a href="#">Sanatçılar</a></li>
+                    <li><a href="#">Benzer Şarkılar</a></li>
+                    <li><a href="#">Sanatçının Farklı Şarkıları</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Türler</h4>
+                <ul>
+                    <li><a href="#">Pop</a></li>
+                    <li><a href="#">Rap</a></li>
+                    <li><a href="#">Rock</a></li>
+                    <li><a href="#">Klasik</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Benzer Şarkılar</h4>
+                <ul>
+                    <li><a href="#">Bu Tür</a></li>
+                    <li><a href="#">Bu Sanatçı</a></li>
+                    <li><a href="#">Bu Şarkı</a></li>
+                    <li><a href="#">Bu Dil</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Müzik Bul.</p>
+            <span>•</span>
+            <p>Müzikler <a href="https://www.tooplate.com" target="_blank" rel="nofollow noopener">Tooplate</a></p>
+        </div>
+    </footer>
+<script src="tooplate-eco-scripts.js"></script>
+</body>
+</html>
