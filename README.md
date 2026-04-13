@@ -1,2 +1,2 @@
-# Muzigin-Dunyasi
+# Muzik-Dunyasi
 Bir müzik web sayfası
